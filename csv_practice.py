@@ -8,7 +8,7 @@ import csv
 #    writer.writerow(["Arun", "23", "Tester"])
 
 #print("Added data in CSV file successfully")
-#print("Added data in CSV file successfully"),,,,,,
+
 with open("employees.csv", "r", newline="") as file:
     reader = csv.reader(file)
 
